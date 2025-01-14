@@ -4,14 +4,12 @@
 // Ao final do processamento, qual será o valor da variável SOMA?
 
 
-function calcularSoma(INDICE,SOMA) {    
-
-  for (let K = 1; K <= INDICE; K++) { 
-      SOMA = SOMA + K; 
+function calcularSoma(INDICE, SOMA) {
+  for (let K = 1; K <= INDICE; K++) {
+    SOMA = SOMA + K;
   }
-
-  console.log("O valor final de SOMA é:", SOMA); 
+  console.log("O valor final de SOMA é:", SOMA);
 }
 
-calcularSoma(13,0);
+calcularSoma(13, 0);
 
